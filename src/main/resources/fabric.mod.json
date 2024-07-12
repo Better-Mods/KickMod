@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "kickmod",
+  "version": "1.0.0",
+  "name": "kickmod",
+  "authors": [
+    "Liam Stephenson, MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "accessWidener": "kickmod.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.kickmod.KickmodMod"
+    ],
+    "client": [
+      "net.mcreator.kickmod.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  }
+}
